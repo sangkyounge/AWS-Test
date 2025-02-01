@@ -27,3 +27,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+
+// jar 두 개 생성되는 것을 방지
+jar {
+	enabled = false
+}
